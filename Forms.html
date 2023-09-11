@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+    <body>
+        <form action="/Sever">
+            <div>
+                <label for="Username">Username: </label>
+                <input type="text" placeholder="Enter Username" id="Username" name="Username">
+                
+            </div>
+            <div>
+                <label for="Password">Password: </label>
+                <input type="password" placeholder="Enter Password" id="Password">
+                
+            </div>
+            <div>
+                <input type="checkbox" placeholder="Your Age" id="Age" name="Age">
+                <label for="Age">I am 18+ </label>
+            </div>
+                <div>
+                    <input type="checkbox" placeholder="Your Age" id="Age" name="Age" checked>
+                    <label for="Age">I am 28+ </label>
+                </div>
+                
+            <div>
+                <label for="Profession">Profession: </label>
+                <input type="radio" name="Profession" id="School Student" value="School Student">
+                <label for="School Student">School Student</label>
+                <input type="radio" name="Profession" id="Collage Student" value="Collage Student">
+                <label for="Collage Student">Collage Student</label>
+                <input type="radio" name="Profession" id="Employer" value="Employer">
+                <label for="Employer">Employer</label>
+            </div>
+            <div>
+                <label for="Courses">Course Selection:  </label>
+                <select name="Courses" id="Courses">
+                    <option selected>Language</option>
+                    <option value="Python">Python</option>
+                    <option value="java">java</option>
+                    <option value="NodeJS">NodeJS</option>
+                    <option value="C++">C++</option>
+                </select>
+            </div>
+            <div>
+                <label for="Range">IQ Lavel:    </label>
+                <input type="range" name="IQ" id="Range" min="80" max="120" step="10" value="90">
+            </div>
+            <br>
+            <div>
+                <label for="FeedBack">FeedBack</label>
+                <textarea name="FeedBack" id="FeedBack" cols="50" rows="5"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+
+            <div>
+                <button type="submit">Login</button>
+                <button type="reset">reset</button>
+            </div>
+        </form>
+<hr>
+
+        <form action="https://www.youtube.com/results">
+            <div>
+                
+                <input type="text" placeholder="Search Here" id="Search" name="search_query">
+                <label for="Search">YouTube Search: </label>
+                <button type="submit">Search</button>
+            </div>
+        
+        </form>
+<hr>
+
+        <form action="https://www.google.com/search?q=a">
+            <div>
+                
+                <input type="text" placeholder="Type for Search" id="Google" name="q">
+                <label for="Google">Google Search: </label>
+                <button type="submit">Search</button>
+            </div>
+
+        </form>
+        
+    </body>
+</html>

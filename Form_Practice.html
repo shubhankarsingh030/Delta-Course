@@ -1,0 +1,61 @@
+<!-- Registration Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+    <body>
+        <form action="server">
+                <h1 align="center"> Registration Form </h1>
+            <div>
+                <label for="First Name">Name</label>
+                <input type="text" placeholder="First Name" id="Name" name="First Name">
+                <input type="text" placeholder="Last Name" id="Name" name="Last Name">
+            </div>
+            <div>
+                <label for="Gender">Gender</label>
+                <select name="Gender" id="Gender">
+                    <option selected>Select</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Otherr</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" placeholder="Your Age" id="Age" name="Age" checked>
+                <label for="Age">I am 18+</label>
+            </div>
+            <div>
+                <label for="Profession">Profession: </label>
+                <input type="radio" name="Profession" id="School Student" value="School Student">
+                <label for="School Student">School Student</label>
+                <input type="radio" name="Profession" id="Collage Student" value="Collage Student">
+                <label for="Collage Student">Collage Student</label>
+                <input type="radio" name="Profession" id="Employer" value="Employer">
+                <label for="Employer">Employer</label>
+            </div>
+            <div>
+                <label for="Courses">Course Selection:  </label>
+                <select name="Courses" id="Courses">
+                    <option selected>Selection</option>
+                    <option value="Python">Python</option>
+                    <option value="java">java</option>
+                    <option value="NodeJS">NodeJS</option>
+                    <option value="C++">C++</option>
+                </select>
+            </div>
+            <div>
+                Do You Agree With The Terms And Condition?
+                <input type="checkbox" name="Terms_Condition" id="Terms_Condition">
+                <label for="Terms_Condition">Yes, I agree</label>
+
+            </div>
+            <div>
+                <button type="submit">Register</button>
+            </div>
+        </form>
+        
+    </body>
+</html>
