@@ -1,0 +1,14 @@
+h2{
+    text-align: center;
+    color: rgb(50, 5, 198);
+    background-color:rgb(16, 224, 92);
+}
+p{
+    color: blueviolet;
+    background-color: bisque;
+    text-align: left;
+}
+button{
+    color: white;
+    background-color: black;
+}
