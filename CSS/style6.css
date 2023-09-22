@@ -1,0 +1,33 @@
+h1{
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+div{
+    font-weight: bolder;
+    background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+@media(width: 400px) {
+    h1{
+        background-color: burlywood;
+        color: brown;
+    }
+    div{
+        background-color:lightcoral;
+        font-weight: normal;
+        border: 2px dotted black;
+        border-radius: 10px;
+
+    }
+}
+@media(orientation:landscape){
+    h1{
+        background-color: bisque;
+        color: brown;
+    }
+    div{
+        background-color: chartreuse;
+        color: darkgreen;
+    }
+}
