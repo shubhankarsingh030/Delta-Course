@@ -1,0 +1,20 @@
+h1{
+    text-align: center;
+    background-color: coral;
+    border: 2px solid black;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: pink;
+    border: 2px solid black;
+}
+.one{
+    background-color: darkgreen;
+    
+}
+.two{
+    background-color: cyan;
+    position: relative;
+    bottom: 50px;
+}
