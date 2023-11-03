@@ -97,4 +97,39 @@
 
 // Rest..............
 
+//Qs1.Square and sum the array elements using the arrow function and then find the average of the array.
 
+// let nums  = [1,2,3,4,5,6];
+// const Square = nums.map((num) => num * num);
+
+// let sum  = Square.reduce((acc, cur) => acc + cur, 0);
+
+// let avg = sum / nums.length;
+// console.log(avg);
+
+//Qs2.Create a  new array using the map function whose each element is equal to the original element plus 5.
+
+// let number = [2,4,5,7,-2,-3];
+// console.log(number.map((number) => number + 5));
+
+//Qs3.Create a new array whose elements are in upper case of words present in the original array.
+
+// let string = ["adam","meena","seena","teeena","peena"];
+// console.log(string.map((string) => string.toUpperCase()));
+
+//Qs4.Write a function called double And ReturnArgs which accepts an array and a variable number of arguments.
+//The function should return a new array with the original array values and all of the additional arguments doubled.
+// const doubleAndReturnargs = (arr, ...args) => [
+//     ...arr,
+//     ...args.map((v) => v * 2 ),
+// ];
+
+// doubleAndReturnargs([1,2,3],4,4);
+// doubleAndReturnargs([2],10,4)
+
+// console.log(doubleAndReturnargs)
+
+//Qs5.Write a function called merge Objects that accepts two objects and returns a new object which contains all the keys and values of the first object and second object,
+// const mergeObjects = (obj1, obj2) => ({ ...obj1, ...obj2});
+// mergeObjects({ a: 1, b: 2}, {c: 3, d: 4});
+// console.log(mergeObjects)
